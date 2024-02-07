@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAPPY VALENTINES DAY</title>
+  <style>
+    body {
+      position: relative; /* Ensure positioning relative to the body */
+      background-color: #ffc0cb; /* Pink background color */
+      text-align: center;
+      padding: 0; /* Remove default padding */
+      margin: 0; /* Remove default margin */
+    }
+
+    #left-img,
+    #right-img {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      max-width: 200px; /* Adjust image size */
+      height: auto; /* Maintain aspect ratio */
+    }
+
+    #left-img {
+      left: 10px; /* Adjust left position */
+    }
+
+    #right-img {
+      right: 10px; /* Adjust right position */
+      max-width: 300px; /* Make right image bigger */
+    }
+
+    #container {
+      max-width: 800px; /* Adjusted max-width */
+      margin: 50px auto;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: relative; /* Ensure stacking context */
+    }
+
+    #content {
+      padding: 20px;
+      margin-top: 20px; /* Adjust margin */
+    }
+
+    #message {
+      font-size: 24px; /* Increased font size */
+      padding-bottom: 20px; /* Adjusted padding */
+      text-align: left; /* Align text to left */
+    }
+
+    #hearts {
+      font-size: 36px;
+      color: red;
+    }
+
+    #flowers {
+      font-size: 24px;
+      color: green;
+    }
+
+    textarea {
+      width: 100%; /* Take full width */
+      padding: 10px;
+      font-size: 16px; /* Adjusted font size */
+    }
+  </style>
+</head>
+<body>
+  <img id="left-img" src="img/1.jpg" alt="Left Image">
+  <img id="right-img" src="img/2.jpg" alt="Right Image">
+  <div id="container">
+    <div id="content">
+      <div id="message">
+        <p id="hearts">❤️❤️❤️ Dear Sassy ❤️❤️❤️</p>
+        <textarea rows="6" placeholder="Happy Valentines day Sas HAHA I hope you like the gift I gave you. It's not much, but I hope you like it i know you told me na hindi mo na need ng gift or something but this is just me showing my appreciation to you And if you're wondering how I made this secret nalang yun HAHAHA.Anyway Happy Valentines again. ❤️ from Ethan"></textarea>
+      </div>
+      <div id="hearts">❤️❤️❤️</div>
+      <div id="flowers">🌸🌷🌺</div>
+    </div>
+  </div>
+</body>
+</html>
